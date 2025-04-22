@@ -1,10 +1,17 @@
-# robotstxt.org/
+# ===================================================================
+# robots.txt for Adrien LE BRETON - Portfolio
+# Generated: 14/04/2025
+# ===================================================================
 
 User-agent: *
-Disallow: /api/account
-Disallow: /api/account/change-password
-Disallow: /api/account/sessions
-Disallow: /api/logs/
-Disallow: /api/users/
+
+Disallow: /api/
 Disallow: /management/
 Disallow: /v3/api-docs/
+Disallow: /swagger-ui/
+Disallow: /oauth2/
+Disallow: /admin/
+Disallow: /account/
+Disallow: /login
+
+Sitemap: /sitemap.xml
